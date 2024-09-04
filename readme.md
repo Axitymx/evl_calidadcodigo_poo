@@ -24,3 +24,6 @@ router.delete('/editorials/:id', editorialController.delete);
 # Comando para levantar el contenedor de base de datos
 
 docker run -d --name postgres-container -e POSTGRES_USER=PostgreDemo -e POSTGRES_PASSWORD=Postgr301 -e POSTGRES_DB=library -p 5432:5432 postgres:latest
+
+# Repo
+https://github.com/Axitymx/evl_calidadcodigo_poo.git

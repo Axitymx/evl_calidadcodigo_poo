@@ -1,10 +1,10 @@
 import { Pool } from "pg";
 
 const pool = new Pool({
-  user: "your_db_user",
+  user: "PostgreDemo",
   host: "localhost",
   database: "library",
-  password: "your_db_password",
+  password: "Postgr301",
   port: 5432,
 });
 
